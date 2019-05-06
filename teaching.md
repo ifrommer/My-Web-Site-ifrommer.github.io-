@@ -13,8 +13,8 @@ I am an associate professor of Mathematics at the U.S. Coast Guard Academy (USCG
 
 ### K-12
 
-As a volunteer, I have taught math, computer programming, and science to elementary school children.  And I am currently working with a local high school on a program to help them teach operations research to their students.
+As a volunteer, I have taught math, computer programming, and science to elementary school children.  
 
 ### Contact me
 
-[ian@greenor.org](mailto:ian@greenor.org)
+[Email](mailto:ian.frommer@gmail.com)
