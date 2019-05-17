@@ -28,13 +28,13 @@ I find using <em>Mathematica </em>works well for this application but I do plan 
 
 Below is the <em>Mathematica </em>used for this problem (the correct way followed by the perpendicular-to-diameter way).
 <h3>Correct Way</h3>
-$side = x^2 + y^2   16^2 \textrm{ && } y \ge 0;$
+$side = x^2 + y^2   16^2 \textrm{  &&  } y \ge 0;$
 
-$bottom = z \ge 0;
+$bottom = z \ge 0;$
 
 $top = z \le \sqrt{16^2 - y^2}$
 
-$all = side \textrm{ && } bottom \textrm{ && } top;$
+$all = side \textrm{  &&  } bottom \textrm{  &&  } top;$
 
 Here I split the solid into 2 parts for printing so we can better see the cross sections. I chose to do so at y=6.
 
