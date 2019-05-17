@@ -26,7 +26,7 @@ In <em>MatterControl </em>(any other slicing software should do):
 
 I find using <em>Mathematica </em>works well for this application but I do plan to look into how other software can be used to go from the math to the .stl file.
 
-<img src="../images/correctA.png" align = "right" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
+<img src="http://ifrommer.github.io/images/correctA.png" align = "right" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
 
 Below is the <em>Mathematica </em>used for this problem (the correct way followed by the perpendicular-to-diameter way).
 <h3>Correct Way</h3>
