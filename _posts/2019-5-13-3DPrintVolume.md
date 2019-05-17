@@ -30,7 +30,7 @@ Below is the <em>Mathematica </em>used for this problem (the correct way followe
 <h3>Correct Way</h3>
 $side = x^2 + y^2   16^2 && y ≥ 0;$
 
-$si = x^2 + y^2;$
+$si = x^2 + y^2 \le 16^2;$
 
 $x^2 + y^2 = z^2$
 
