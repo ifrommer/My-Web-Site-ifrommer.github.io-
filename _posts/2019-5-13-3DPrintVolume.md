@@ -26,9 +26,8 @@ In <em>MatterControl </em>(any other slicing software should do):
 
 I find using <em>Mathematica </em>works well for this application but I do plan to look into how other software can be used to go from the math to the .stl file.
 
-<img src="http://ifrommer.github.io/images/correctA.png" align = "right" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
-
 Below is the <em>Mathematica </em>used for this problem (the correct way followed by the perpendicular-to-diameter way).
+
 <h3>Correct Way</h3>
 $side = x^2 + y^2 \le  16^2 \;\; \textrm{&&} \;\; y \ge 0;$
 
@@ -38,6 +37,8 @@ $top = z \le \sqrt{16^2 - y^2}$
 
 $all = side  \;\;\; \textrm{&&} \;\; bottom \;\;\; \textrm{&&} \;\; top;$
 
+<!-- Couldn't figure out how to get relative reference working in jeckyl/github -->
+<img src="http://ifrommer.github.io/images/correctA.png" align = "right" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
 Here I split the solid into 2 parts for printing so we can better see the cross sections. I chose to do so at y=6.
 
 $ySplitLoc = 6;$
@@ -50,13 +51,11 @@ $parts = {partA, partB}; names = {"A", "B"};$
 
 $correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 40}, BoxRatios -> Automatic, PlotPoints -> 100], {part, parts}]$
 
+<img src="http://ifrommer.github.io/images/correctB.png" align = "right" alt="Correct way - part B" HSPACE="50" VSPACE="10" width="238" height="311">
 This creates the two sub-plots in <em>Mathematica</em>:
 
-<!-- [caption id="attachment_147" align="alignleft" width="216"]
-<img class="alignnone  wp-image-147" src="images/correctA.png" alt="correctA" width="216" height="306" /> Correct way - part A[/caption] -->
 
 
-[caption id="attachment_148" align="alignleft" width="238"]<img class="alignnone  wp-image-148" src="https://ifrommer.files.wordpress.com/2019/01/correctB.png" alt="correctB" width="238" height="311" /> Correct way - part B[/caption]
 <h3></h3>
 <h3></h3>
 <h3></h3>
