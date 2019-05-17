@@ -28,7 +28,7 @@ I find using <em>Mathematica </em>works well for this application but I do plan 
 
 Below is the <em>Mathematica </em>used for this problem (the correct way followed by the perpendicular-to-diameter way).
 <h3>Correct Way</h3>
-side = x<sup>2</sup> + y<sup>2</sup> ≤ 16<sup>2</sup> && y ≥ 0;
+$side = x^2 + y^2   16^2 && y ≥ 0;$
 
 $x^2 + y^2 = z^2$
 
