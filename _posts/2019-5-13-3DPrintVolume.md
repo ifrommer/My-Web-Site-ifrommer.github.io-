@@ -51,21 +51,35 @@ $correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 4
 
 This creates the two sub-plots in <em>Mathematica</em>:
 <!-- Couldn't figure out how to get relative reference working in jeckyl/github -->
+
+<table width="500px" height="100%" border="1">
+
+<tr>
+
+<td>
 <img src="http://ifrommer.github.io/images/correctA.png" align = "left" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
+</td>
+
+<td>
 <img src="http://ifrommer.github.io/images/correctB.png" align = "right" alt="Correct way - part B" HSPACE="50" VSPACE="10" width="238" height="311">
+</td>
+
+</tr>
+
+</table>
 
 
 
-<h3></h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
-<h3></h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
+<h3> </h3>
 <h3>Perpendicular-to-Diameter Way</h3>
 Use the same bottom and side as before.
 
