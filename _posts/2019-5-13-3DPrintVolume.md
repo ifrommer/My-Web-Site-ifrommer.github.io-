@@ -30,6 +30,8 @@ Below is the <em>Mathematica </em>used for this problem (the correct way followe
 <h3>Correct Way</h3>
 side = x<sup>2</sup> + y<sup>2</sup> ≤ 16<sup>2</sup> && y ≥ 0;
 
+$x^2 + y^2 = z^2$
+
 bottom = z ≥ 0;
 
 top = z ≤ √<span style="text-decoration:overline;"><i>16</i><span style="font-size:10px;vertical-align:25%;">2</span>-<i>y</i><span style="font-size:10px;vertical-align:25%;">2</span> </span>;
