@@ -55,7 +55,7 @@ This creates the two sub-plots in <em>Mathematica</em>:
 <img src="http://ifrommer.github.io/images/correctB.png" align = "right" alt="Correct way - part B" HSPACE="50" VSPACE="10" width="238" height="311">
 
 
-<!--
+
 <h3></h3>
 <h3></h3>
 <h3></h3>
@@ -65,7 +65,7 @@ This creates the two sub-plots in <em>Mathematica</em>:
 <h3></h3>
 <h3></h3>
 <h3></h3>
-<h3></h3>-->
+<h3></h3>
 <h3>Perpendicular-to-Diameter Way</h3>
 Use the same bottom and side as before.
 
