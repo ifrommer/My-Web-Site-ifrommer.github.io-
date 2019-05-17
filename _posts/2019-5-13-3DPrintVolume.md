@@ -28,7 +28,7 @@ I find using <em>Mathematica </em>works well for this application but I do plan 
 
 Below is the <em>Mathematica </em>used for this problem (the correct way followed by the perpendicular-to-diameter way).
 <h3>Correct Way</h3>
-$side = x^2 + y^2 \le  16^2 \textrm{  &&  } y \ge 0;$
+$side = x^2 + y^2 \le  16^2 \;\; \textrm{&&} \;\; y \ge 0;$
 
 $bottom = z \ge 0;$
 
