@@ -37,8 +37,6 @@ $top = z \le \sqrt{16^2 - y^2}$
 
 $all = side  \;\;\; \textrm{&&} \;\; bottom \;\;\; \textrm{&&} \;\; top;$
 
-<!-- Couldn't figure out how to get relative reference working in jeckyl/github -->
-<img src="http://ifrommer.github.io/images/correctA.png" align = "right" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
 Here I split the solid into 2 parts for printing so we can better see the cross sections. I chose to do so at y=6.
 
 $ySplitLoc = 6;$
@@ -51,8 +49,10 @@ $parts = {partA, partB}; names = {"A", "B"};$
 
 $correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 40}, BoxRatios -> Automatic, PlotPoints -> 100], {part, parts}]$
 
-<img src="http://ifrommer.github.io/images/correctB.png" align = "right" alt="Correct way - part B" HSPACE="50" VSPACE="10" width="238" height="311">
 This creates the two sub-plots in <em>Mathematica</em>:
+<!-- Couldn't figure out how to get relative reference working in jeckyl/github -->
+<img src="http://ifrommer.github.io/images/correctA.png" align = "left" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
+<img src="http://ifrommer.github.io/images/correctB.png" align = "right" alt="Correct way - part B" HSPACE="50" VSPACE="10" width="238" height="311">
 
 
 <!--
