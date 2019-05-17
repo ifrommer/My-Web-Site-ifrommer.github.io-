@@ -68,18 +68,6 @@ This creates the two sub-plots in <em>Mathematica</em>:
 
 </table>
 
-
-
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
-<h3> </h3>
 <h3>Perpendicular-to-Diameter Way</h3>
 Use the same bottom and side as before.
 
