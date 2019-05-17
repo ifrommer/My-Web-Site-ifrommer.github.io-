@@ -34,14 +34,17 @@ $bottom = z \ge 0;$
 
 $top = z \le \sqrt{16^2 - y^2}$
 
-$all = side \textrm{  &&  } bottom \textrm{  &&  } top;$
+$all = side  \;\; \textrm{&&} \;\; bottom \;\; \textrm{&&} \;\; top;$
 
 Here I split the solid into 2 parts for printing so we can better see the cross sections. I chose to do so at y=6.
 
-ySplitLoc = 6;
-partA = all && y ≤ ySplitLoc;
-partB = all && y ≥ ySplitLoc;
-parts = {partA, partB}; names = {"A", "B"};
+$ySplitLoc = 6;$
+
+$partA = all  \;\; \textrm{&&} \;\;  y ≤ ySplitLoc;$
+
+$partB = all  \;\; \textrm{&&} \;\;  y ≥ ySplitLoc;$
+
+$parts = {partA, partB}; names = {"A", "B"};$
 
 correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 40}, BoxRatios -> Automatic, PlotPoints -> 100], {part, parts}]
 
