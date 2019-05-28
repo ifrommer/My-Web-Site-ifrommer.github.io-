@@ -84,7 +84,7 @@ Using a similar process as above, I plotted the region split into two parts:
 </table>
 
 Here is what it looked like while printing (perpendicular to diameter one):
-[![printing](http://ifrommer.github.io/images/printing_b2rotd.jpg)](https://youtu.be/vVm8YCj1ho4)
+[![printing](http://ifrommer.github.io/images/printing_b2rotd.JPG)](https://youtu.be/vVm8YCj1ho4)
 
 Finally, here is a video showing the printed shapes and how one can manipulate them to get a good feel for the cross sections:
-[![feel](http://ifrommer.github.io/images/printing_b2rotd.jpg)](https://youtu.be/y4aae6l96TA)
+[![feel](http://ifrommer.github.io/images/printing_b2rotd.JPG)](https://youtu.be/y4aae6l96TA)
