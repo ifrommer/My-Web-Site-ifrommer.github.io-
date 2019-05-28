@@ -72,24 +72,16 @@ $top = z \le \sqrt{16^2 - y^2}$
 
 Using a similar process as above, I plotted the region split into two parts:
 
-[caption id="attachment_146" align="alignright" width="309"]<img class="alignnone  wp-image-146" src="https://ifrommer.files.wordpress.com/2019/01/perpDiamA.png" alt="perpDiamA" width="309" height="211" /> Perpendicular to diameter - part B[/caption]
-
-[caption id="attachment_149" align="alignleft" width="322"]<img class="alignnone  wp-image-149" src="https://ifrommer.files.wordpress.com/2019/01/perpDiamB.png" alt="perpDiamB" width="322" height="212" /> Perpendicular to diameter - part A[/caption]
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+<table width="500px" height="100%" border="1">
+<tr>
+<td>
+<img src="http://ifrommer.github.io/images/perpDiamB.png" align = "left" alt="Left part" HSPACE="50" VSPACE="10" width="322" height="212">
+</td>
+<td>
+<img src="http://ifrommer.github.io/images/perpDiamA.png" align = "right" alt="Right part" HSPACE="50" VSPACE="10" width="309" height="211">
+</td>
+</tr>
+</table>
  
 
 Here is what it looked like while printing (perpendicular to diameter one):
