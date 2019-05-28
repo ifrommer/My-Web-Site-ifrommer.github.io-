@@ -85,10 +85,8 @@ Using a similar process as above, I plotted the region split into two parts:
  
 
 Here is what it looked like while printing (perpendicular to diameter one):
-
+![printing][printing_b2rotd.jpg]
  
-
-[caption id="attachment_150" align="aligncenter" width="309"]<img class="alignnone  wp-image-150" src="https://ifrommer.files.wordpress.com/2019/01/printing_b2rotd.jpg" alt="printing_b2(rotd)" width="309" height="316" /> Printing![/caption]
 
 https://youtu.be/vVm8YCj1ho4
 
