@@ -82,17 +82,9 @@ Using a similar process as above, I plotted the region split into two parts:
 </td>
 </tr>
 </table>
- 
 
 Here is what it looked like while printing (perpendicular to diameter one):
-![printing]("printing_b2(rotd).jpg")
- 
-
-https://youtu.be/vVm8YCj1ho4
+[![printing]("http://ifrommer.github.io/images/printing_b2(rotd).jpg")](https://youtu.be/vVm8YCj1ho4)
 
 Finally, here is a video showing the printed shapes and how one can manipulate them to get a good feel for the cross sections:
-
-https://youtu.be/y4aae6l96TA
-
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![feel]("http://ifrommer.github.io/images/printing_b2(rotd).jpg")](https://youtu.be/y4aae6l96TA)
