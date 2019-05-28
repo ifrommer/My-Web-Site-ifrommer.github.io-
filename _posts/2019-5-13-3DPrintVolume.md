@@ -53,27 +53,22 @@ This creates the two sub-plots in <em>Mathematica</em>:
 <!-- Couldn't figure out how to get relative reference working in jeckyl/github -->
 
 <table width="500px" height="100%" border="1">
-
 <tr>
-
 <td>
 <img src="http://ifrommer.github.io/images/correctA.png" align = "left" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
 </td>
-
 <td>
 <img src="http://ifrommer.github.io/images/correctB.png" align = "right" alt="Correct way - part B" HSPACE="50" VSPACE="10" width="238" height="311">
 </td>
-
 </tr>
-
 </table>
 
 <h3>Perpendicular-to-Diameter Way</h3>
 Use the same bottom and side as before.
 
-top = z ≤ √<span style="text-decoration:overline;"><i>16</i><span style="font-size:10px;vertical-align:25%;">2</span>-<i>x</i><span style="font-size:10px;vertical-align:25%;">2</span> </span>;
+$top = z \le \sqrt{16^2 - y^2}$
 
-all = side && bottom && top;
+*all = side && bottom && top;*
 
 Using a similar process as above, I plotted the region split into two parts:
 
