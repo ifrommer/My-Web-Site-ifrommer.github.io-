@@ -13,16 +13,15 @@ One student came up with a different answer from the correct one. The reason was
 My general process for 3D printing mathematical objects is as follows:
 
 In <em>Mathematica</em>:
-1. Define the set of points constituting the shape
-2. Generate a 3D plot of this set using the command RegionPlot3D
-3. Export the 3D plot to .stl format
+  1. Define the set of points constituting the shape
+  2. Generate a 3D plot of this set using the command RegionPlot3D
+  3. Export the 3D plot to .stl format
 
 In <em>MatterControl </em>(any other slicing software should do):
-4. Import the .stl file
-5. Adjust settings as necessary – this could include infill amount, z layer height, resizing it, rotating, etc.
-6. Export as a .gcode file
-
-7. Print on my <em>Anet A2</em> 3D printer
+  4. Import the .stl file
+  5. Adjust settings as necessary – this could include infill amount, z layer height, resizing it, rotating, etc.
+  6. Export as a .gcode file
+  7. Print on my <em>Anet A2</em> 3D printer
 
 I find using <em>Mathematica </em>works well for this application but I do plan to look into how other software can be used to go from the math to the .stl file.
 
