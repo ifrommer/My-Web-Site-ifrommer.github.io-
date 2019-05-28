@@ -47,7 +47,7 @@ $partB = all  \;\; \textrm{&&} \;\;  y ≥ ySplitLoc;$
 
 $parts = {partA, partB}; names = {"A", "B"};$
 
-$correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 40}, BoxRatios -> Automatic, PlotPoints -> 100], {part, parts}]$
+correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 40}, BoxRatios -> Automatic, PlotPoints -> 100], {part, parts}]
 
 This creates the two sub-plots in <em>Mathematica</em>:
 <!-- Couldn't figure out how to get relative reference working in jeckyl/github -->
