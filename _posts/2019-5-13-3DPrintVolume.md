@@ -13,16 +13,15 @@ One student came up with a different answer from the correct one. The reason was
 My general process for 3D printing mathematical objects is as follows:
 
 In <em>Mathematica</em>:
-1. Define the set of points constituting the shape
-2. Generate a 3D plot of this set using the command RegionPlot3D
-3. Export the 3D plot to .stl format
+  1. Define the set of points constituting the shape
+  2. Generate a 3D plot of this set using the command RegionPlot3D
+  3. Export the 3D plot to .stl format
 
 In <em>MatterControl </em>(any other slicing software should do):
-4. Import the .stl file
-5. Adjust settings as necessary – this could include infill amount, z layer height, resizing it, rotating, etc.
-6. Export as a .gcode file
-
-7. Print on my <em>Anet A2</em> 3D printer
+  4. Import the .stl file
+  5. Adjust settings as necessary – this could include infill amount, z layer height, resizing it, rotating, etc.
+  6. Export as a .gcode file
+  7. Print on my <em>Anet A2</em> 3D printer
 
 I find using <em>Mathematica </em>works well for this application but I do plan to look into how other software can be used to go from the math to the .stl file.
 
@@ -47,64 +46,50 @@ $partB = all  \;\; \textrm{&&} \;\;  y ≥ ySplitLoc;$
 
 $parts = {partA, partB}; names = {"A", "B"};$
 
-$correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 40}, BoxRatios -> Automatic, PlotPoints -> 100], {part, parts}]$
+*correctSolidParts = Table[RegionPlot3D[part, {x, -20, 20}, {y, 0, 20}, {z, 0, 40}, BoxRatios -> Automatic, PlotPoints -> 100], {part, parts}]*
 
 This creates the two sub-plots in <em>Mathematica</em>:
 <!-- Couldn't figure out how to get relative reference working in jeckyl/github -->
 
 <table width="500px" height="100%" border="1">
-
 <tr>
-
 <td>
 <img src="http://ifrommer.github.io/images/correctA.png" align = "left" alt="Correct One" HSPACE="50" VSPACE="10" width="216" height="306">
 </td>
-
 <td>
 <img src="http://ifrommer.github.io/images/correctB.png" align = "right" alt="Correct way - part B" HSPACE="50" VSPACE="10" width="238" height="311">
 </td>
-
 </tr>
-
 </table>
 
 <h3>Perpendicular-to-Diameter Way</h3>
 Use the same bottom and side as before.
 
-top = z ≤ √<span style="text-decoration:overline;"><i>16</i><span style="font-size:10px;vertical-align:25%;">2</span>-<i>x</i><span style="font-size:10px;vertical-align:25%;">2</span> </span>;
+$top = z \le \sqrt{16^2 - y^2}$
 
-all = side && bottom && top;
+*all = side && bottom && top;*
 
 Using a similar process as above, I plotted the region split into two parts:
 
-[caption id="attachment_146" align="alignright" width="309"]<img class="alignnone  wp-image-146" src="https://ifrommer.files.wordpress.com/2019/01/perpDiamA.png" alt="perpDiamA" width="309" height="211" /> Perpendicular to diameter - part B[/caption]
+<table width="500px" height="100%" border="1">
+<tr>
+<td>
+<img src="http://ifrommer.github.io/images/perpDiamB.png" align = "left" alt="Left part" HSPACE="50" VSPACE="10" width="322" height="212">
+</td>
+<td>
+<img src="http://ifrommer.github.io/images/perpDiamA.png" align = "right" alt="Right part" HSPACE="50" VSPACE="10" width="309" height="211">
+</td>
+</tr>
+</table>
 
-[caption id="attachment_149" align="alignleft" width="322"]<img class="alignnone  wp-image-149" src="https://ifrommer.files.wordpress.com/2019/01/perpDiamB.png" alt="perpDiamB" width="322" height="212" /> Perpendicular to diameter - part A[/caption]
+Here is a short video showing what it looked like while printing (perpendicular to diameter one):
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Here is what it looked like while printing (perpendicular to diameter one):
-
- 
-
-[caption id="attachment_150" align="aligncenter" width="309"]<img class="alignnone  wp-image-150" src="https://ifrommer.files.wordpress.com/2019/01/printing_b2rotd.jpg" alt="printing_b2(rotd)" width="309" height="316" /> Printing![/caption]
-
-https://youtu.be/vVm8YCj1ho4
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=vVm8YCj1ho4
+" target="_blank"><img src="http://img.youtube.com/vi/vVm8YCj1ho4/0.jpg" 
+alt="Printing" width="360" height="270" border="10" /></a>
 
 Finally, here is a video showing the printed shapes and how one can manipulate them to get a good feel for the cross sections:
 
-https://youtu.be/y4aae6l96TA
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=y4aae6l96TA
+" target="_blank"><img src="http://img.youtube.com/vi/y4aae6l96TA/0.jpg" 
+alt="Feel" width="360" height="270" border="10" /></a>
