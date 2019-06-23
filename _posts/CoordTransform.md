@@ -17,6 +17,7 @@ Mike explained the problem over the phone. What it boiled down to was that he:
 3. wanted to compute the coordinates of the points in the object relative to the coordinate axes and origin of the plane **T**.
 
 For example, if given the points defining the cube to the lower left in the figure, and 3 points defining the plane that is graphed, the function should output the coordinates for the cube plotted in the upper right.
+![coord transform img1](../images/coordTransImg1.png)
 
 ...
 
