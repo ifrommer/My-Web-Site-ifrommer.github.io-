@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Transforming Coordinates (update title)
+published: true
 ---
 I love when someone asks me to provide them with some math help on a real-world problem. New London (CT) maker extraordinaire Mike Molinari recently sent me this message:
 
@@ -10,7 +11,9 @@ any chance you might be able to spare a few minutes and give me a hand?
 It has to do with translation of 3d points.
 ...just need a bit of help to figure it out.
 
-Mike explained the problem over the phone. What it boiled down to was that he was finding three points on a plane and
+Mike explained the problem over the phone. What it boiled down to was:
+1. he was finding the coordinates of three points on a plane
+2. he had the coordinates of points in some 3D object (e.g. a box) relative to the standard coordinate axes **i**, **j**, and **k**.
 
 
 Later I wrote back to Mike:
