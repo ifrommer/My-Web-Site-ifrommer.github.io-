@@ -1,3 +1,7 @@
+---
+layout: post
+title: Transforming Coordinates (update title)
+---
 I love when someone asks me to provide them with some math help on a real-world problem. New London (CT) maker extraordinaire Mike Molinari recently sent me this message:
 
 > Hey.
