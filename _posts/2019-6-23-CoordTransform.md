@@ -20,6 +20,10 @@ Mike explained the problem over the phone. What it boiled down to was that he:
 For example, if given the points defining the cube to the lower left in the figure, and 3 points defining the plane that is graphed, the function should output the coordinates for the cube plotted in the upper right.
 ![coord transform img1](../images/coordTransImg1.png)
 
+This is a nice problem for students involving concepts and techniques from linear algebra and multivariable calculus and that lends itself very readily to a computer programming implementation.  Since I was in the midst of teaching a computer programming course in Python to our sophomore Operations Research & Analytics majors, I used it as the basis of an assignment for that course.
+
+There are a number of moving parts to the solving and ultimately I (with input from my excellent colleauge Dana Dougherty) decided to scaffold the assignment.  And since it is a numerical task, we seized the opportunity to introduce them to numpy.  
+
 ...
 
 Later I wrote back to Mike:
