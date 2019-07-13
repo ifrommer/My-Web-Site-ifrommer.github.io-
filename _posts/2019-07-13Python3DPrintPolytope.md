@@ -69,4 +69,40 @@ scaffolding
 
 More about each...
 4. 
+...
+
+
+
+```
+# Inputs: Constraint matrix and rhs's
+A0 = np.array([[3,4,2],
+            [1,2,2],
+            [1,1,1]])
+b = np.array([[400],[300],[200]])
+A = np.hstack((A0,b))
+p1 = LP_Polytope(A)
+print(p1)
+fname = input('Enter .scad file name for export (or ENTER for no export): ')
+if fname: p1.exportToScad(fname)
+
+LP FR Polytope with instance variables:
+_m = 3
+_numVars = 3
+_totalVars = 6
+_A = [[3 4 2]
+ [1 2 2]
+ [1 1 1]]
+_b = [[400]
+ [300]
+ [200]]
+_Aaug = [[3. 4. 2. 1. 0. 0.]
+ [1. 2. 2. 0. 1. 0.]
+ [1. 1. 1. 0. 0. 1.]]
+_bvSet = [(0, 1, 2), (0, 1, 3), (0, 1, 4), (0, 1, 5), (0, 2, 3), (0, 2, 4), (0, 2, 5), (0, 3, 4), (0, 3, 5), (0, 4, 5), (1, 2, 3), (1, 2, 4), (1, 2, 5), (1, 3, 4), (1, 3, 5), (1, 4, 5), (2, 3, 4), (2, 3, 5), (2, 4, 5), (3, 4, 5)]
+_cpList = [{'BVs': (0, 2, 5), 'x': [50.00000000000003, 0, 124.99999999999999]}, {'BVs': (0, 4, 5), 'x': [133.33333333333331, 0, 0]}, {'BVs': (1, 2, 5), 'x': [0, 50.0, 100.0]}, {'BVs': (1, 4, 5), 'x': [0, 100.0, 0]}, {'BVs': (2, 3, 5), 'x': [0, 0, 150.0]}, {'BVs': (3, 4, 5), 'x': [0, 0, 0]}]
+_faceCPs = {0: [3, 2, 4, 5], 1: [1, 0, 4, 5], 2: [1, 3, 5], 3: [1, 0, 2, 3], 4: [0, 2, 4]}
+
+
+Enter .scad file name for export (or ENTER for no export): 
+```
 
