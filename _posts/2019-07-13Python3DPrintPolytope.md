@@ -1,4 +1,4 @@
-In earlier posts, I wrote about my experiences [visualizing](https://greenor.wordpress.com/2014/02/09/visualizing-lps-in-mathematica/) and [3D printing](https://greenor.wordpress.com/2016/02/23/3d-printing-an-lp-feasible-region/) polytopes using *Mathematica*.
+In earlier posts, I wrote about my experiences [visualizing](https://greenor.wordpress.com/2014/02/09/visualizing-lps-in-mathematica/) and [3D=printing](https://greenor.wordpress.com/2016/02/23/3d-printing-an-lp-feasible-region/) polytopes using *Mathematica*.
 I am coming at these polytopes as feasible regions of 3-variable linear progams (LP). In a [related post about using the same "tool chain" to print solids from Calculus examples](http://ifrommer.github.io/3DPrintVolume/), I wrote:
 > I find using Mathematica works well for this application but I do plan to look into how other software can be used to go from the math to the .stl file.
 
@@ -28,7 +28,7 @@ CubeFaces = [
 polyhedron( CubePoints, CubeFaces );
 ```
 
-In what follows, I outline the process of going from an LP's constraint inequalities to the .stl file for 3D printing via SolidPython and OpenSCAD.  The process ended up being more involved than I originally anticipated, certainly much more work than in *Mathematica*.  There is likely a simpler Python/OpenSCAD pathway, maybe via convex hulls, which I started to look into.  But the process I will describe contains some great opportunities for student assignments, and, it was fun!
+In what follows, I outline the process in Python, SolidPython and OpenSCAD of going from an LP's constraint inequalities to the .stl file of the resulting polyhedron to be 3D printed.  The process ended up being more involved than I originally anticipated, certainly much more work than in *Mathematica*.  There is likely a simpler Python/OpenSCAD pathway, maybe via convex hulls, which I started to look into.  But the process I will describe contains some great opportunities for student assignments, and, it was fun!
 
 Assumptions here:
 1. 3-variable linear program (n=3)
@@ -51,7 +51,7 @@ Here is an overview of the Python code I wrote:
 
 I was originally planning to post the code to github, but since I think this works better as an educational tool than a production one, I decided not to.  I am hapy to share the code as long as you're not one of my students ;) so if you would like it, let me know.
 
-So as an assignment in a course, there are a number of mathematical and programming challenges for students.  
+As an assignment in a course, there are a number of mathematical and programming challenges for students.  
 Math 
 - finding  the corner points (#3 above) - given the knowledge of which variables are basic, how do you find the corresonding corner point?  This is a nice exercise calling on material from the Simplex algorithm and some matrix work we cover when introducing sensitivity analysis. 
 - which corner points belong to which faces? (#4 above)  how is this determined?  what is true of a face mathematically that allows one to find its corner points?
@@ -60,7 +60,7 @@ Math
 
 Programming
 - all of the math challenges above must be implemented in code
-- generating the list of all sets of basic variables (#2 above) - there are many ways to implement this, since I was already using PuLP for LPs, I took advantage of its *combination* function.  A set of basic variables may or may not correspond to a basic solution, and a basic solution may or may not be feasible.  Understanding conditions for these and implementing them appropriately is necessary.
+- generating the list of all sets of basic variables (#2 above) - there are many ways to implement this, the **itertools** module being a very standard one.  Since I was already using the **PuLP** module for LPs, I took advantage of its *combination* function.  A set of basic variables may or may not correspond to a basic solution, and a basic solution may or may not be feasible.  Understanding conditions for these and implementing them appropriately is necessary.
 - 
 
 scaffolding 
